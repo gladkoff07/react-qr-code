@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  // font-weight: 500;
+  color: #010101;
+}
+
+h1 {
+  text-align: center;
+}
