@@ -17,23 +17,23 @@ export const Layout = () => {
       <div className={style.container}>
         <Routes>
           <Route
-            path='/'
+            path='/react-qr-code/'
             element={<App />}
           />
           <Route
-            path='/generate'
+            path='/react-qr-code/generate'
             element={<QrConeGenerate />}
           />
           <Route
-            path='/generate-history'
+            path='/react-qr-code/generate-history'
             element={<QrCodeGenerateHistory />}
           />
           <Route
-            path='/scanner'
+            path='/react-qr-code/scanner'
             element={<QrCodeScanner />}
           />
           <Route
-            path='/scanner-history'
+            path='/react-qr-code/scanner-history'
             element={<QrCodeScannerHistory />}
           />
           <Route
